@@ -62,6 +62,4 @@
 
 ##  GitHub Stats
 
-![minky5004's GitHub Stats](https://github-readme-stats.vercel.app/api?username=minky5004&show_icons=true&theme=default&hide_title=true)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=minky5004&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minky5004&layout=compact)
