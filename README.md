@@ -10,17 +10,17 @@
 
 - **[study-log](https://study-log-n6ez.onrender.com)** (2026.08 – Present)
   공부 세션 기록 + 검색·통계 웹 애플리케이션. 포트폴리오 중 유일하게 **Spring Boot 4.1** 실서비스로 배포 · CI 연동
-    - 마크다운 TIL 파일의 한계(분야·기간·태그로 좁힐 수 없고 꾸준함도 확인 불가)를 DB 이관으로 해결 — 대신 **YAML 프론트매터 마크다운 재내보내기**로 옵시디언 vault 호환은 그대로 유지
+    - 날짜·분야·태그별로 공부 시간을 기록하고, 로그인 없이도 잔디 그래프·주간 추이·분야별 통계로 쌓인 기록을 되짚어볼 수 있는 개인용 학습 기록 서비스
     - 스택: Spring Boot · Spring Security · Spring Data JPA · Thymeleaf · PostgreSQL · Testcontainers
 
 - **[daily-log-bot](https://github.com/minky5004/daily-log-bot)** (2026.08 – Present)
   study-log에 매일 자정 그날 커밋·PR을 TIL로 자동 게시 — study-log를 직접 채우는 짝 프로젝트. 프레임워크 없이 HttpClient+Jackson 직접 구현
-    - GitHub REST로 계정 전체 커밋·PR 수집 후 **private 저장소 세부 정보 제거(anonymize)** — 이후 요약·업로드 단계가 보는 건 순화된 데이터뿐
+    - 매일 자정 GitHub 활동(커밋·PR)을 계정 전체에서 모아 Gemini로 요약하고, study-log에 자동 업로드까지 마치는 무인 파이프라인
     - 스택: Java 21 · HttpClient · Jackson · Gemini API
 
 - **[ai-cards-news](https://minky5004.github.io/ai-cards-news/)** (2026.07 – Present)
   매일 밤 사람 손 없이 수집부터 발행까지 도는 AI 뉴스 카드 파이프라인. GitHub Pages 정적 배포 · 37회 중 33회 무인 완주
-    - 무인 운영 실적을 수치로 추적 — 37회 중 33회 완주, 끊긴 4회의 원인까지 근거로 남김
+    - 뉴스 수집 → 본문 추출 → LLM 카피라이팅 → 카드 이미지 렌더링 → 정적 사이트 배포까지, 사람이 매일 고르던 큐레이션을 통째로 자동화
     - 스택: Gemini API · Playwright · Astro · GitHub Actions
 
 ---
