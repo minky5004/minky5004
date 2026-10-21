@@ -19,7 +19,7 @@
     - 스택: Java 21 · HttpClient · Jackson · Gemini API
 
 - **[ai-cards-news](https://minky5004.github.io/ai-cards-news/)** (2026.07 – Present)
-  매일 밤 사람 손 없이 수집부터 발행까지 도는 AI 뉴스 카드 파이프라인. GitHub Pages 정적 배포 · 07-28~09-02 스케줄 37회 중 33회 무인 완주
+  매일 밤 사람 손 없이 수집부터 발행까지 도는 AI 뉴스 카드 파이프라인. GitHub Pages 정적 배포 · 2026.07.28~09.02 스케줄 37회 중 33회 무인 완주
     - 뉴스 수집 → 본문 추출 → LLM 카피라이팅 → 카드 이미지 렌더링 → 정적 사이트 배포까지, 사람이 매일 고르던 큐레이션을 통째로 자동화
     - 스택: Gemini API · Playwright · Astro · GitHub Actions
 
