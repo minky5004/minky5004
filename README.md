@@ -8,8 +8,8 @@
 
 ## Projects
 
-- **[study-log](https://study-log-n6ez.onrender.com)** (2026.08 – Present)
-  공부 세션 기록 + 검색·통계 웹 애플리케이션. 포트폴리오 중 유일하게 **Spring Boot 4.1** 실서비스로 배포 · CI 연동
+- **[study-log](https://github.com/minky5004/study-log)** (2026.08 – Present)
+  공부 세션 기록 + 검색·통계 웹 애플리케이션. 포트폴리오 중 유일하게 **Spring Boot 4.1** 실서비스로 [배포](https://study-log-n6ez.onrender.com)(무료 티어 · 첫 접속 기동 대기 약 3분) · CI 연동
     - 날짜·분야·태그별로 공부 시간을 기록하고, 로그인 없이도 잔디 그래프·주간 추이·분야별 통계로 쌓인 기록을 되짚어볼 수 있는 개인용 학습 기록 서비스
     - 스택: Spring Boot · Spring Security · Spring Data JPA · Thymeleaf · PostgreSQL · Testcontainers
 
@@ -19,16 +19,21 @@
     - 스택: Java 21 · HttpClient · Jackson · Gemini API
 
 - **[ai-cards-news](https://minky5004.github.io/ai-cards-news/)** (2026.07 – Present)
-  매일 밤 사람 손 없이 수집부터 발행까지 도는 AI 뉴스 카드 파이프라인. GitHub Pages 정적 배포 · 37회 중 33회 무인 완주
+  매일 밤 사람 손 없이 수집부터 발행까지 도는 AI 뉴스 카드 파이프라인. GitHub Pages 정적 배포 · 07-28~09-02 스케줄 37회 중 33회 무인 완주
     - 뉴스 수집 → 본문 추출 → LLM 카피라이팅 → 카드 이미지 렌더링 → 정적 사이트 배포까지, 사람이 매일 고르던 큐레이션을 통째로 자동화
     - 스택: Gemini API · Playwright · Astro · GitHub Actions
+
+- **[flowdiffmap](https://github.com/minky5004/flowdiffmap)** (2026.09)
+  커밋마다 부모 커밋 대비 바뀐 메서드·호출만 칠한 Java 흐름도(Mermaid)를 쓰는 post-commit 훅. 앱 실행 없는 소스 정적 분석 · CI 연동
+    - Spring Boot 는 Controller → Service → Repository · 그 밖의 리포는 main·리스너 진입점부터 따라간 호출 관계 — PostgreSQL 커밋별 스냅샷과 부모 커밋 비교로 추가·삭제·본문 변경만 칠한 그림
+    - 스택: Java 21 · JavaParser · PostgreSQL(JDBC) · Testcontainers
 
 ---
 
 ## Learning
 
 - **[Mario_RL_Project](https://github.com/minky5004/Mario_RL_Project)** (2026.06 – 2026.07)
-  강화학습 공부 기록. Java(두뇌) ↔ Python(게임 환경) TCP 소켓 연결, 12개 두뇌를 같은 환경·5시드 분포로 20일간 비교·강화
+  강화학습 공부 기록. Java(두뇌) ↔ Python(게임 환경) TCP 소켓 연결, 12개 두뇌를 같은 환경·5시드 분포로 DAY 20회(약 한 달) 비교·강화
     - 상태를 **두 테이블 합산**(위치 무시 테이블 + 위치 포함 테이블)으로 설계 — 일반화와 안정화를 동시에 얻어 클리어 횟수 3회 → 17회로 개선
 
 ---
@@ -77,7 +82,7 @@
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 
 ### Test & Build
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=flat-square&logo=testcontainers&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 
