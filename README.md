@@ -35,6 +35,7 @@
 - **[Mario_RL_Project](https://github.com/minky5004/Mario_RL_Project)** (2026.06 – 2026.07)
   강화학습 공부 기록. Java(두뇌) ↔ Python(게임 환경) TCP 소켓 연결, 12개 두뇌를 같은 환경·5시드 분포로 DAY 20회(약 한 달) 비교·강화
     - 상태를 **두 테이블 합산**(위치 무시 테이블 + 위치 포함 테이블)으로 설계 — 일반화와 안정화를 동시에 얻어 클리어 횟수 3회 → 17회로 개선
+    - 스택: Java 17 · Gson · Python · gym-super-mario-bros · Docker
 
 - **[LLM_Study_Project](https://github.com/minky5004/LLM_Study_Project)** (2026.09 – 2026.10)
   작은 언어모델 밑바닥 구현 공부 기록. 직접 짠 토크나이저 · 모델 · 학습 루프 · 생성 — 한국어 일상 대화 11,823쌍 · 파라미터 500만 대화 모델
